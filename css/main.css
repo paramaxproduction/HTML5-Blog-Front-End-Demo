@@ -25,12 +25,7 @@ hr {
     padding: 0;
 }
 
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
+audio, canvas, iframe, img, svg, video {
     vertical-align: middle;
 }
 
@@ -55,57 +50,58 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-a{
+
+a {
     color: #333;
     text-decoration: none;
 }
 
-h2{
+h2 {
     font-size: 25px;
 }
 
-ul, ol{
+ul, ol {
     margin: 0;
     padding: 0;
 }
 
-.container{
+.container {
     margin: 0 auto;
     width: 80%;
     overflow: hidden;
 }
 
-#main-header{
+#main-header {
     height: 50px;
     background: #333;
     overflow: hidden;
     margin-bottom: 20px;
 }
 
-#branding{
+#branding {
     float: left;
     width: 50%;
 }
 
-#branding h1{
+#branding h1 {
     padding: 5px 0 0 70px;
     color: #fff;
     margin: 0 !important;
 }
 
-#branding img{
+#branding img {
     position: absolute;
     width: 60px;
     height: auto;
 }
 
-#main-nav{
+#main-nav {
     float: right;
     width: 50%;
     padding-top: 12px;
 }
 
-#main-nav li{
+#main-nav li {
     float: left;
     padding: 3px 5px 0 5px;
     margin: 0 15px;
@@ -116,15 +112,15 @@ ul, ol{
     color: #fff;
 }
 
-#main-nav ul{
+#main-nav ul {
     float: right;
 }
 
-#main-nav a{
+#main-nav a {
     color: #fff;
 }
 
-#content{
+#content {
     float: left;
     width: 63%;
     border: 1px solid #ccc;
@@ -132,32 +128,32 @@ ul, ol{
     padding: 0 20px 20px 20px;
 }
 
-article{
+article {
     border-bottom: 1px dotted #ccc;
     padding: 10px 0 20px 0;
 }
 
-article img{
+article img {
     width: 100%;
 }
 
-article h2{
+article h2 {
     margin: 0;
     padding-top: 10px;
 }
 
-article .meta{
+article .meta {
     margin: 10px 0 10px 0;
     padding: 5px;
     background: #333;
     color: #fff;
 }
 
-article .meta span{
+article .meta span {
     float: right;
 }
 
-article .readmore{
+article .readmore {
     background: #f4f4f4;
     color: #000;
     width: 97%;
@@ -168,20 +164,20 @@ article .readmore{
     border-radius: 10px;
 }
 
-article .readmore:hover{
+article .readmore:hover {
     background: #ccc;
 }
 
-#sidebar{
+#sidebar {
     float: right;
     width: 30%;
 }
 
-.search{
+.search {
     float: right;
 }
 
-.search input[type="search"]{
+.search input[type="search"] {
     border: 1px solid #ccc;
     border-radius: 5px;
     height: 20px;
@@ -190,35 +186,35 @@ article .readmore:hover{
     float: left;
 }
 
-.search input[type="image"]{
+.search input[type="image"] {
     width: 10%;
     float: right;
 }
 
-#sub-nav{
+#sub-nav {
     padding: 20px 0 20px 0;
 }
 
-#sub-nav li{
+#sub-nav li {
     font-size: 16px;
     font-weight: bold;
     padding: 5px 0 5px 0;
     border-bottom: dotted 1px #333;
 }
 
-#sub-nav a{
+#sub-nav a {
     color: #333;
 }
 
-#sub-nav a:hover, #sub-nav a.active{
+#sub-nav a:hover, #sub-nav a.active {
     color: #ff0000;
 }
 
-.ad img{
+.ad img {
     width: 100%;
 }
 
-#main-footer{
+#main-footer {
     background: #333;
     color: #fff;
     min-height: 180px;
@@ -226,25 +222,25 @@ article .readmore:hover{
     overflow: auto;
 }
 
-#main-footer a{
+#main-footer a {
     color: #fff;
 }
 
-#main-footer .copy{
+#main-footer .copy {
     padding: 20px 0 0 0;
 }
 
-#main-footer .footer-left{
+#main-footer .footer-left {
     float: left;
     width: 30%;
 }
 
-#main-footer .footer-right{
+#main-footer .footer-right {
     float: right;
     width: 70%;
 }
 
-#main-footer .footer-nav{
+#main-footer .footer-nav {
     float: left;
     font-size: 15px;
     width: 31%;
@@ -252,9 +248,74 @@ article .readmore:hover{
     margin-right: 10px;
 }
 
-#main-footer .footer-nav li{
+#main-footer .footer-nav li {
     padding: 5px 0 5px 0;
     border-bottom: dotted #666 1px;
+}
+
+#comments {
+    margin-top: 20px;
+}
+
+.comment-left {
+    float: left;
+    width: 8%;
+}
+
+.comment-left img {
+    width: 100%;
+}
+
+.comment-right {
+    float: right;
+    width: 90%;
+}
+
+.comment-form {
+    margin-top: 20px;
+    padding: 5px 20px 10px 20px;
+    background: #333;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.comment-form input[type="text"], .comment-form input[type="email"] {
+    border: #ccc 1px solid;
+    border-radius: 5px;
+    height: 20px;
+    padding: 3px;
+    width: 97%;
+}
+
+.comment-form textarea {
+    border: #ccc 1px solid;
+    border-radius: 5px;
+    padding: 3px;
+    width: 97%;
+}
+
+.add-form input[type="text"]{
+    border: #ccc 1px solid;
+    border-radius: 5px;
+    height: 20px;
+    padding: 3px;
+    width: 97%;
+}
+
+.add-form select{
+    border: #ccc 1px solid;
+    border-radius: 5px;
+    height: 30px;
+    padding: 3px;
+    width: 98%;
+}
+
+.add-form textarea{
+    border: #ccc 1px solid;
+    border-radius: 5px;
+    height: 50px;
+    padding: 3px;
+    width: 97%;
 }
 
 
@@ -262,16 +323,10 @@ article .readmore:hover{
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 35em) {}
 
-}
+@media print, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {}
 
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-
-}
 
 /* ==========================================================================
    Helper classes
@@ -293,8 +348,7 @@ article .readmore:hover{
     width: 1px;
 }
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
     clip: auto;
     height: auto;
     margin: 0;
@@ -307,8 +361,7 @@ article .readmore:hover{
     visibility: hidden;
 }
 
-.clearfix:before,
-.clearfix:after {
+.clearfix:before, .clearfix:after {
     content: " ";
     display: table;
 }
@@ -321,66 +374,48 @@ article .readmore:hover{
     *zoom: 1;
 }
 
+
 /* ==========================================================================
    Print styles
    ========================================================================== */
 
 @media print {
-    *,
-    *:before,
-    *:after {
+    *, *:before, *:after {
         background: transparent !important;
         color: #000 !important;
         box-shadow: none !important;
         text-shadow: none !important;
     }
-
-    a,
-    a:visited {
+    a, a:visited {
         text-decoration: underline;
     }
-
     a[href]:after {
         content: " (" attr(href) ")";
     }
-
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
+    a[href^="#"]:after, a[href^="javascript:"]:after {
         content: "";
     }
-
-    pre,
-    blockquote {
+    pre, blockquote {
         border: 1px solid #999;
         page-break-inside: avoid;
     }
-
     thead {
         display: table-header-group;
     }
-
-    tr,
-    img {
+    tr, img {
         page-break-inside: avoid;
     }
-
     img {
         max-width: 100% !important;
     }
-
-    p,
-    h2,
-    h3 {
+    p, h2, h3 {
         orphans: 3;
         widows: 3;
     }
-
-    h2,
-    h3 {
+    h2, h3 {
         page-break-after: avoid;
     }
 }
